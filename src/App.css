@@ -1,10 +1,72 @@
 .App {
   text-align: center;
+  background-color:white;
+  color:black;
+  align-items: center;
+  margin: 0; 
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+}
+.text{
+  width: 200px;
+  height: 50px;
+  margin-right: 10px;
+  font-size: 20PX;
+}
+.zero{
+  color:red;
+}
+.notzero{
+  color:rgb(147, 241, 147);
+}
+.big{
+  color:rgb(53, 209, 53);
+}
+.vbig{
+  color:rgb(43, 158, 43);
+}
+
+.text2{
+  width: 200px;
+  height: 50px;
+  margin-right: 20px;
+  margin-bottom: 100px;
+  font-size: 20PX;
+     
+}
+.button2{
+  background-color:green;
+  text-align: center;
+  color:white;
+  width: 80px;
+  height: 50px;
+}
+.button3{
+  background-color:blue;
+  text-align: center;
+  color:white;
+  width: 100px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.button{
+  background-color:red;
+  text-align: center;
+  color:white;
+  width: 80px;
+  margin-left: 10px;
+  height: 40px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.error{
+  color:red;
+  
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,14 +76,9 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  background-color:floralwhite;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
